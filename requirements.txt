@@ -1,0 +1,6 @@
+opencv-python
+pytesseract
+pyttsx3
+google-generativeai
+Spire.Presentation
+python-pptx
