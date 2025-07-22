@@ -13,7 +13,7 @@ import warnings
 from gtts import gTTS
 warnings.filterwarnings('ignore')
 
-genai.configure(api_key="AIzaSyD_1wJt_juTT2KlHzt6TT0AM87JX2JKpos")   #generate a new key
+genai.configure(api_key="key")   #generate a new key
 model = genai.GenerativeModel('gemini-1.5-flash')
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe' #not required in ubuntu
 import streamlit as st
